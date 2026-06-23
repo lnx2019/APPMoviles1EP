@@ -1,50 +1,90 @@
-# Welcome to your Expo app 👋
+# 📱 APPMoviles1EP
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicación desarrollada con Expo y React Native.
 
-## Get started
+## 📋 Requisitos Previos
 
-1. Install dependencies
+Antes de ejecutar el proyecto, asegúrate de tener instalado:
 
-   ```bash
-   npm install
-   ```
+* Node.js (versión LTS recomendada)
+* npm (incluido con Node.js)
+* Expo CLI (opcional)
+* Android Studio (para emulador Android)
+* Expo Go (para pruebas en dispositivo móvil)
 
-2. Start the app
+## 📥 Clonar el repositorio
 
-   ```bash
-   npx expo start
-   ```
+Ejecuta los siguientes comandos en una terminal:
 
-In the output, you'll find options to open the app in a
+```bash
+git clone https://github.com/lnx2019/APPMoviles1EP.git
+cd APPMoviles1EP
+```
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 📦 Instalar dependencias
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Una vez dentro del proyecto, instala las dependencias:
 
-## Get a fresh project
+```bash
+npm install
+```
 
-When you're ready, run:
+## 🚀 Ejecutar la aplicación
+
+Para iniciar el proyecto:
+
+```bash
+npx expo start
+```
+
+Al ejecutarlo, Expo mostrará diferentes opciones para abrir la aplicación:
+
+* Android Emulator
+* iOS Simulator
+* Expo Go
+* Navegador Web
+
+## 📂 Estructura del Proyecto
+
+El código fuente principal se encuentra dentro del directorio:
+
+```text
+app/
+```
+
+Desde esta carpeta se desarrollan las pantallas, componentes y rutas de la aplicación.
+
+## 🔄 Reiniciar el proyecto
+
+Si deseas volver a una estructura inicial de Expo, ejecuta:
 
 ```bash
 npm run reset-project
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Este comando moverá el código de ejemplo al directorio:
 
-## Learn more
+```text
+app-example/
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+y creará una nueva carpeta:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```text
+app/
+```
 
-## Join the community
+vacía para comenzar desde cero.
 
-Join our community of developers creating universal apps.
+## 📚 Recursos de aprendizaje
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+* Documentación de Expo: https://docs.expo.dev
+* Tutorial de Expo: https://docs.expo.dev/tutorial/introduction/
+
+## 👥 Integrantes
+
+Agregar aquí los nombres de los integrantes del equipo.
+
+## 📄 Licencia
+
+Proyecto desarrollado con fines académicos.
